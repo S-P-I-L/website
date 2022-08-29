@@ -18,7 +18,7 @@ const data = [
     id: 2,
     title: 'Future Finance',
     text:
-      'Brilliant founders are re-imagining the services and underlying infrastructure that power financial systems and define how money flows.'
+      'Re-imagining the services and underlying infrastructure that power financial systems and define how money flows.'
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const data = [
     id: 4,
     title: 'Improving Health',
     text:
-      'Founders are using cutting-edge tech to focus on complete biological pictures & consumer-driven care, sparking a foundational shift in healthcare.'
+      'Using cutting-edge tech to focus on complete biological pictures & consumer-driven care, sparking a foundational shift in healthcare.'
   },
 ];
 

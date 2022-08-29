@@ -48,7 +48,7 @@ export default function Banner() {
             Superior Products and Investment Ltd
           </Heading>
           <Text as="p" variant="heroSecondary">
-            We provide a comprehensive suite of solutions to address the capital needs of organizations, limited partners, and entrepreneurs across various industries.
+            We provide a comprehensive suite of solutions to address the digital needs of organizations, limited partners, and entrepreneurs across various industries.
             {/* We empower exceptional teams and companies across various industries including medicine, law, agriculture, and fashion. */}
           </Text>
           <Flex>

@@ -18,7 +18,7 @@ export default [
   },
 
   {
-    header: 'Our Address',
+    header: 'Address',
     items: [
       {
         path: '/',

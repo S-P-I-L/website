@@ -25,7 +25,7 @@ export default function Footer() {
         </Box>
       </Container>
       <Text sx={styles.footer.copyright}>
-        All right reserved - SPIL - Superior Products and Investments LTD
+        Superior Products and Investments LTD
         {/* <Link path="https:///" target="_blank">
           SPIL Tech
         </Link> */}

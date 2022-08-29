@@ -56,7 +56,8 @@ export default function Banner() {
 
 
             <Button variant="whiteButton" aria-label="Explore">
-                Explore
+                {/* Explore */}
+                -
               </Button>
             {/* <>
               <ModalVideo

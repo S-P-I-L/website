@@ -3,8 +3,9 @@ import { jsx } from 'theme-ui';
 import { Container, Flex, Box, Heading, Text, Image, Button } from 'theme-ui';
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
-import { Link } from 'components/link';
-// import { FaPlayCircle } from 'react-icons/fa';
+// import { Link } from 'components/link';
+import { Link } from 'react-scroll';
+import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
 // import BannerThumb from 'assets/banner-4.png';
 import BannerThumb from 'assets/banner-thumb.png';
@@ -54,10 +55,24 @@ export default function Banner() {
 
 
 
-            <Button variant="whiteButton" aria-label="Explore">
-                {/* Explore */}
-                -
-              </Button>
+          <Link
+            activeClass="active"
+            to={'about'}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <Button
+              className="donate__btn"
+              variant="whiteButton"
+              aria-label="Explore"
+            >
+              Explore 
+            </Button>
+          </Link>
+          
+            
             {/* <>
               <ModalVideo
                 channel="youtube"
@@ -75,7 +90,7 @@ export default function Banner() {
             </> */}
           </Flex>
           <Flex sx={styles.sponsorBox}>
-            <Text sx={styles.sponsorTitle}>Trusted by:</Text>
+            {/* <Text sx={styles.sponsorTitle}>Trusted by:</Text> */}
             {/* <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
                 <Link path={item.path} key={`client-key${index}`}>

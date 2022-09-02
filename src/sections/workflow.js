@@ -9,7 +9,7 @@ import ArrowEven from 'assets/arrowEven.png';
 
 const data = [
   {
-    id: 1,
+    id: 1, 
     title: 'Frontier Tech',
     text:
       'With the creation of business applications that empower workers and enhance productivity, the digital transformation of every industry is under way.'
@@ -31,7 +31,7 @@ const data = [
     title: 'Improving Health',
     text:
       'Using cutting-edge tech to focus on complete biological pictures & consumer-driven care, sparking a foundational shift in healthcare.'
-  },
+  }
 ];
 
 export default function WorkFlow() {

@@ -3,8 +3,8 @@ import { jsx, Container, Flex, Button } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
-import LogoDark from 'assets/logo_.png';
-import LogoWhite from 'assets/logo-dark_.png';
+import LogoDark from 'assets/logo-blue.png';
+import LogoWhite from 'assets/logo-white.png';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
@@ -14,7 +14,7 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <Logo style={{ width: '100px' }} src={className === 'sticky' ? LogoDark : LogoWhite} />
+          <Logo style={{ width: '60px', height: '60px' }} src={className === 'sticky' ? LogoDark : LogoWhite} />
 
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (

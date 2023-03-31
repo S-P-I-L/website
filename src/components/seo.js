@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'SPIL - Superior Products and Investments Limited',
+  description = 'Loamy Technologies',
   author = 'Giwa Jossy',
   meta,
-  title = 'SPIL - Superior Products and Investments Limited',
+  title = 'Loamy Technologies',
 }) {
   const metaData = [
     {

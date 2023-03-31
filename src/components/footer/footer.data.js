@@ -22,11 +22,11 @@ export default [
     items: [
       {
         path: '/',
-        label: '141, Elias Close, Victoria Island',
+        label: '22, Salahudeen Akano Street, GRA',
       },
       {
         path: '/',
-        label: 'Lagos State',
+        label: ' Ogudu, Lagos State',
       }
     ]
   }

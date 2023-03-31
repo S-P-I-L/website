@@ -20,7 +20,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="SPIL - Superior Products and Investments Limited" />
+          <SEO title="Loamy Technologies" />
           <Banner />
           <KeyFeature />
           {/* <CoreFeature /> */}

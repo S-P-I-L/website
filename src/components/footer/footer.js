@@ -25,9 +25,9 @@ export default function Footer() {
         </Box>
       </Container>
       <Text sx={styles.footer.copyright}>
-        Superior Products and Investments LTD
+        Loamy Technologies Limited 
         {/* <Link path="https:///" target="_blank">
-          SPIL Tech
+          Loamy Technologies
         </Link> */}
       </Text>
     </footer>

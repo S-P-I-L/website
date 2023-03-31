@@ -39,7 +39,7 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="about">
       <Container>
         <SectionHeader
-          slogan="At SPIL Tech"
+          slogan="At Loamy Technologies"
           title="Our overarching thesis is that technology will transform all sectors of our world and that the biggest transformations are yet to come"
         />
 

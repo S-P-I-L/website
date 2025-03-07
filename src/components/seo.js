@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'Loamy Technologies',
+  description = 'Canvas Collective Studio',
   author = 'Giwa Jossy',
   meta,
-  title = 'Loamy Technologies',
+  title = 'Canvas Collective Studio',
 }) {
   const metaData = [
     {
@@ -43,7 +43,11 @@ export default function SEO({
   ].concat(meta);
   return (
     <Head>
-      <title>{title}</title>
+      <title>
+        {title.split(" ")[0]}{" "}
+        <br />
+        {title.split(" ").slice(1).join(" ")}
+      </title>
       {metaData.map(({ name, content }, i) => (
         <meta key={i} name={name} content={content} />
       ))}

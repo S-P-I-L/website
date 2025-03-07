@@ -53,7 +53,7 @@ export default function Banner() {
             {title.split(" ").slice(1).join(" ")}
           </Heading>
           <Text as="p" variant="heroSecondary">
-            We provide a comprehensive suite of solutions to address the digital needs of Government offices, organizations, limited partners, and entrepreneurs across various industries.
+            We provide a comprehensive suite of solutions to address the digital needs of Government offices, limited partners, and organizations across various industries
           </Text>
           <Flex>
 

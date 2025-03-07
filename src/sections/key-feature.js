@@ -39,7 +39,7 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="about">
       <Container>
         <SectionHeader
-          slogan="At Loamy Technologies"
+          slogan="At Canvas collective Studio"
           title="Our overarching thesis is that technology will transform all sectors of our world and that the biggest transformations are yet to come"
         />
 

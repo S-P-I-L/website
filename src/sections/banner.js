@@ -46,7 +46,7 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h2" variant="heroPrimary">
-            Loamy Technologies ltd
+            Canvas Collective Studio
           </Heading>
           <Text as="p" variant="heroSecondary">
             We provide a comprehensive suite of solutions to address the digital needs of organizations, limited partners, and entrepreneurs across various industries.

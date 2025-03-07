@@ -20,7 +20,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Loamy Technologies" />
+          <SEO title="Canva Collective Studio" />
           <Banner />
           <KeyFeature />
           {/* <CoreFeature /> */}

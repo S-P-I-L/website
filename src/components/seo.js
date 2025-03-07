@@ -43,11 +43,7 @@ export default function SEO({
   ].concat(meta);
   return (
     <Head>
-      <title>
-        {title.split(" ")[0]}{" "}
-        <br />
-        {title.split(" ").slice(1).join(" ")}
-      </title>
+      <title>{title}</title>
       {metaData.map(({ name, content }, i) => (
         <meta key={i} name={name} content={content} />
       ))}

@@ -41,15 +41,19 @@ export default function Banner() {
     e.preventDefault();
     setVideoOpen(true);
   };
+
+  const title = `Canvas Collective Studio`
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h2" variant="heroPrimary">
-            Canvas Collective Studio
+            {title.split(" ")[0]}&nbsp;
+            <br />
+            {title.split(" ").slice(1).join(" ")}
           </Heading>
           <Text as="p" variant="heroSecondary">
-            We provide a comprehensive suite of solutions to address the digital needs of organizations, limited partners, and entrepreneurs across various industries.
+            We provide a comprehensive suite of solutions to address the digital needs of Government offices, organizations, limited partners, and entrepreneurs across various industries.
           </Text>
           <Flex>
 

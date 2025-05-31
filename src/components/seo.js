@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'Canvas Collective Studio',
+  description = 'Loamy Technologies',
   author = 'Giwa Jossy',
   meta,
-  title = 'Canvas Collective Studio',
+  title = 'Loamy Technologies',
 }) {
   const metaData = [
     {

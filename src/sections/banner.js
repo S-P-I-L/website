@@ -41,16 +41,12 @@ export default function Banner() {
     e.preventDefault();
     setVideoOpen(true);
   };
-
-  const title = `Canvas Collective Studio`
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h2" variant="heroPrimary">
-            {title.split(" ")[0]}&nbsp;
-            <br />
-            {title.split(" ").slice(1).join(" ")}
+          Loamy Technologies ltd
           </Heading>
           <Text as="p" variant="heroSecondary">
             We provide a comprehensive suite of solutions to address the digital needs of Government offices, limited partners, and organizations across various industries

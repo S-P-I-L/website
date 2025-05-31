@@ -25,9 +25,9 @@ export default function Footer() {
         </Box>
       </Container>
       <Text sx={styles.footer.copyright}>
-        Canva Collective Studio
+      Loamy Technologies Limited
         {/* <Link path="https:///" target="_blank">
-          Canva Collective Studio
+          Loamy Technologies
         </Link> */}
       </Text>
     </footer>

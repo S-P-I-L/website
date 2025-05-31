@@ -17,17 +17,20 @@ export default [
     ]
   },
 
-  // {
-  //   header: 'Address',
-  //   items: [
-  //     {
-  //       path: '/',
-  //       label: '',
-  //     },
-  //     {
-  //       path: '/',
-  //       label: '',
-  //     }
-  //   ]
-  // }
+
+
+
+  {
+    header: 'Address',
+    items: [
+      {
+        path: '/',
+        label: '22, Salahudeen Akano Street, GRA',
+      },
+      {
+        path: '/',
+        label: 'Ogudu, Lagos State',
+      }
+    ]
+  }
 ];
